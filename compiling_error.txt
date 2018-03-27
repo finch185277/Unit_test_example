@@ -1,0 +1,6 @@
+/tmp/ccsAxH6h.o: In function `main':
+main.cpp:(.text+0x1e): undefined reference to `testing::InitGoogleTest(int*, char**)'
+/tmp/ccsAxH6h.o: In function `RUN_ALL_TESTS()':
+main.cpp:(.text._Z13RUN_ALL_TESTSv[_Z13RUN_ALL_TESTSv]+0x5): undefined reference to `testing::UnitTest::GetInstance()'
+main.cpp:(.text._Z13RUN_ALL_TESTSv[_Z13RUN_ALL_TESTSv]+0xd): undefined reference to `testing::UnitTest::Run()'
+collect2: error: ld returned 1 exit status
